@@ -3,7 +3,7 @@ package dk.lundogbendsen.demo.camel.ex1;
 import org.apache.camel.builder.endpoint.EndpointRouteBuilder;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class SimpleFileRoute extends EndpointRouteBuilder {
 	 	
 		@Override
